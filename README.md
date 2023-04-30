@@ -7,6 +7,7 @@ A place for my python experiments and tips and tricks for becomming a better pyt
 Topics I plan to cover in due course:
 
 - Packaging and setuptools
+- Containers
 - Wheels and binary distributions
 - Productivity tips
 - Source tree layout
