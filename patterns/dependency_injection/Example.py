@@ -1,3 +1,4 @@
+import toml
 from patterns.dependency_injection import FooInterface
 
 
@@ -7,3 +8,7 @@ class Example:
 
     def do_work(self):
         self._foo_module.do_amazing_thing()
+
+def demo():
+    toml.load("config.toml")
+    foo = 123

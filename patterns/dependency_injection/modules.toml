@@ -1,2 +1,0 @@
-[modules]
-foo_module = "patterns.dependency_injection.AmazingFooImpl"

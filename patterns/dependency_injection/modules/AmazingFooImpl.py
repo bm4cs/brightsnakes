@@ -1,4 +1,4 @@
-from patterns.dependency_injection import FooInterface
+from patterns.dependency_injection.modules import FooInterface
 
 
 class AmazingFooImpl(FooInterface):
