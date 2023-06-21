@@ -30,7 +30,7 @@ class FilteredLogger(Logger):
             super().log(message)
 
 
-def main()
+def main():
     f = FilteredLogger("Error", sys.stdout)
     f.log('Ignored: this is not important')
     f.log('Error: you really want to see this')
