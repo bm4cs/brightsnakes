@@ -1,4 +1,4 @@
-class Parrot:
+class ParrotProperties:
     def __init__(self):
         self._voltage = 100000
 

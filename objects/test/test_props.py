@@ -1,9 +1,9 @@
 import unittest
 
-from objects.Parrot import Parrot
+from objects.ParrotProperties import Parrot
 
 
-class MyTestCase(unittest.TestCase):
+class TestParrotProperties(unittest.TestCase):
     def setUp(self) -> None:
         pass
 
@@ -19,5 +19,5 @@ class MyTestCase(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 
-# python3 -m unittest -v objects/test/test_parrot.py
+# python3 -m unittest -v objects/test/test_props.py
 # python3 -m unittest objects.test.test_parrot.MyTestCase.test_default_voltage

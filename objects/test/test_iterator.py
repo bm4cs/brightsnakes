@@ -1,9 +1,9 @@
 import unittest
 
-from objects.Iterator import ParrotIterator
+from objects.ParrotIterator import ParrotIterator
 
 
-class MyTestCase(unittest.TestCase):
+class TestParrotIterator(unittest.TestCase):
     def setUp(self) -> None:
         self.parrot_iterator = ParrotIterator(256)
 
@@ -21,6 +21,7 @@ class MyTestCase(unittest.TestCase):
     def test_iterator_exhaustion(self):
         last_value = 0
 
+        # exhaust the iterator
         for p in self.parrot_iterator:
             last_value = p
             self.assertGreater(p, 0, "all iterator values should be > 0")
