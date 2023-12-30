@@ -13,7 +13,8 @@ class Logger(object):
 
 
 class SocketLogger(Logger):
-    def __init__(self, sock: socket):
+    def __init__(self, sock: socket, file: TextIO):
+        super().__init__(file)
         self.sock = sock
 
     def log(self, message):
