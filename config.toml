@@ -1,2 +1,2 @@
 [modules]
-foo_module = "patterns.dependency_injection.modules.AmazingFooImpl"
+foo = "patterns.ioc.dependencies.concretes.AmazingFooImpl"
