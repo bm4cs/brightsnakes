@@ -17,5 +17,6 @@ class TestComputedAttrs(unittest.TestCase):
     def test_getattr_backed_property(self):
         self.assertEqual("polly", self._sut.name)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()

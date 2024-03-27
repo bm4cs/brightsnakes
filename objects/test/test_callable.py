@@ -10,5 +10,5 @@ class TestCallable(unittest.TestCase):
         self.assertRegex(result, r"noam chomsky \[1930\] OTP = \d+$")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

@@ -5,4 +5,3 @@ class ParrotProperties:
     @property
     def voltage(self):
         return self._voltage
-

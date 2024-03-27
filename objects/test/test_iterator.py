@@ -29,5 +29,5 @@ class TestParrotIterator(unittest.TestCase):
         self.assertEqual(256, last_value)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

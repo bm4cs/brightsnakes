@@ -6,8 +6,7 @@ import click
 @click.command()
 def main():
     """Console script for patterns."""
-    click.echo("Replace this message by putting your code into "
-               "patterns.cli.main")
+    click.echo("Replace this message by putting your code into patterns.cli.main")
     click.echo("See click documentation at https://click.palletsprojects.com/")
 
     return 0

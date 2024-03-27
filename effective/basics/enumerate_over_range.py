@@ -11,9 +11,9 @@ def main():
     print(bin(random_bits))
 
     # 'in' for data structure iteration
-    flavor_list = ['vanilla', 'chocolate', 'pecan', 'strawberry']
+    flavor_list = ["vanilla", "chocolate", "pecan", "strawberry"]
     for flavor in flavor_list:
-        print(f'{flavor} is delicious')
+        print(f"{flavor} is delicious")
 
     # stick with enumerate which yields both index and item
     it = enumerate(flavor_list)
@@ -22,4 +22,4 @@ def main():
 
     # notice the tuple results, these supports unpacking (destructuring)
     for i, flavor in enumerate(flavor_list):
-        print(f'{i + 1}: {flavor}')
+        print(f"{i + 1}: {flavor}")

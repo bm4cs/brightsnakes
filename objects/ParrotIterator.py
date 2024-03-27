@@ -7,7 +7,7 @@ class ParrotIterator:
         return self
 
     def __next__(self):
-        value = 2 ** self._iteration
+        value = 2**self._iteration
 
         if value > self._max:
             raise StopIteration

@@ -16,7 +16,7 @@ class TestParrotProperties(unittest.TestCase):
         pass
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()
 
 # python3 -m unittest -v objects/test/test_props.py

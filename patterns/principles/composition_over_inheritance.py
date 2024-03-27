@@ -8,7 +8,7 @@ class Logger(object):
         self.file = file
 
     def log(self, message):
-        self.file.write(message + '\n')
+        self.file.write(message + "\n")
         self.file.flush()
 
 
@@ -18,7 +18,7 @@ class SocketLogger(Logger):
         self.sock = sock
 
     def log(self, message):
-        self.sock.sendall(message + '\n'.encode('ascii'))
+        self.sock.sendall(message + "\n".encode("ascii"))
 
 
 class FilteredLogger(Logger):
@@ -33,8 +33,8 @@ class FilteredLogger(Logger):
 
 def main():
     f = FilteredLogger("Error", sys.stdout)
-    f.log('Ignored: this is not important')
-    f.log('Error: you really want to see this')
+    f.log("Ignored: this is not important")
+    f.log("Error: you really want to see this")
 
 
 if __name__ == "__main__":

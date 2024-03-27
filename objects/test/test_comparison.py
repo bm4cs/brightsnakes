@@ -13,5 +13,5 @@ class TestComparer(unittest.TestCase):
         self.assertTrue(freddy == freddy_clone)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()
