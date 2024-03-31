@@ -1,6 +1,21 @@
 # brights snakes
 
-A place for my python experiments and tips and tricks for becomming a better python programmer.
+A place for my python experiments for becoming a better python programmer.
+
+## Setup
+
+```bash
+./development/install-tools.sh
+```
+
+## Packaging
+
+Uses poetry coupled with the [poetry-dynamic-versioning](https://github.com/mtkennerly/poetry-dynamic-versioning) plugin.
+
+```
+poetry build
+poetry publish --repository private
+```
 
 ## Topics
 

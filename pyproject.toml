@@ -33,7 +33,7 @@ format-jinja = """
 
 [tool.poetry.dependencies]
 python = ">=3.10,<4"
-click = "*"
+rich = "^13.7.1"
 
 [tool.poetry.group.dev.dependencies]
 bumpversion = "*"
